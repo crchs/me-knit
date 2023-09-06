@@ -2,13 +2,17 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "moduleResolution": "node",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@pages": [ "pages" ],
+      "@app": [ "app" ],
+      "@entities": [ "entities" ],
+      "@shared": [ "shared" ],
+      "@widgets": [ "widgets" ],
+      "@features": [ "features" ],
     },
+    "allowSyntheticDefaultImports": true,
     "lib": [
       "esnext",
       "dom",
