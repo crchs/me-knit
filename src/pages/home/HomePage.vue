@@ -1,6 +1,6 @@
 <template>
     <div>
-        {{ msg }}
+        Tu będzie hołm pejdż
     </div>
 </template>
 

@@ -12,10 +12,10 @@
       <v-spacer></v-spacer>
 
       <v-toolbar-items class="d-none d-md-block">
-        <v-btn text to="home">
+        <v-btn to="home">
           <span class="mr-2">Zaloguj</span>
         </v-btn>
-        <v-btn text to="about">
+        <v-btn to="about">
           <span class="mr-2">O mnie</span>
         </v-btn>
       </v-toolbar-items>

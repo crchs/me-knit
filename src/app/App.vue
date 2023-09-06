@@ -1,7 +1,12 @@
 <template>
   <v-app>
-    <NavigationEntity />
-    <router-view></router-view>
+    <v-layout class="rounded rounded-md">
+      <NavigationEntity />
+      
+      <v-main class="d-flex align-center justify-center">
+        <router-view></router-view>
+      </v-main>
+    </v-layout>
   </v-app>
 </template>
 
@@ -10,6 +15,4 @@ import NavigationEntity from '@/entities/navigation/NavigationEntity.vue';
 
 </script>
 
-<style>
-
-</style>
+<style></style>

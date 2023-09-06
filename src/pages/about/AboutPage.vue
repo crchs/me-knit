@@ -1,5 +1,4 @@
 <template>
-    <!-- <NavigationEntity /> -->
     <div>
         {{ msg }}
     </div>
@@ -7,7 +6,6 @@
 
 <script setup>
 import { onMounted, defineProps } from 'vue'
-// import NavigationEntity from '@/entities/navigation/NavigationEntity.vue';
 
 defineProps({
    msg: {
